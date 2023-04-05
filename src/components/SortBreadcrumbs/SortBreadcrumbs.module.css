@@ -1,0 +1,8 @@
+.sorter {
+  display: flex;
+  margin-top: 20px;
+}
+
+.button:not(:first-child) {
+  margin-left: 15px;
+}

@@ -1,0 +1,7 @@
+.input {
+  width: auto;
+}
+
+.input:nth-child(n + 1) {
+  margin-left: 10px;
+}

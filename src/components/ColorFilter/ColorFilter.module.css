@@ -1,0 +1,13 @@
+.input {
+  width: auto;
+  margin-right: 7px;
+}
+
+.item:not(:first-child) {
+  margin-top: 10px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+}
