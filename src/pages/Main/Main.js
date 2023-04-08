@@ -11,27 +11,6 @@ import useItems from "../../hooks/useItems";
 import { sorters, colorFilters } from "./helpers";
 import styles from "./Main.module.css";
 
-// const itemsEx = [
-//   {
-//     name: "Sneakers",
-//     price: 150,
-//     color: "Yellow",
-//     rate: 4.5,
-//   },
-//   {
-//     name: "smth",
-//     price: 2000,
-//     color: "Red",
-//     rate: 3.0,
-//   },
-//   {
-//     name: "Sneakers",
-//     price: 300,
-//     color: "Black",
-//     rate: 5.0,
-//   },
-// ];
-
 const Main = () => {
   const [itemsData, isLoading, error] = useFetchItems("/items.json");
   const {
